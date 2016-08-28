@@ -1,0 +1,26 @@
+{
+	"name": "aero-auth",
+	"version": "0.0.0",
+	"main": "index.js",
+	"description": "Allows users to login.",
+	"dependencies": {
+		"passport": "*"
+	},
+	"keywords": [
+		"aero",
+		"auth",
+		"authorization",
+		"login",
+		"passport"
+	],
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/aerojs/aero-auth"
+	},
+	"author": {
+		"name": "Eduard Urbach",
+		"email": "e.urbach@gmail.com",
+		"url": "https://blitzprog.org"
+	},
+	"license": "GPL-3.0"
+}
