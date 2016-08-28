@@ -16,7 +16,7 @@ module.exports = app => {
 	
 	// Deserialize
 	// This means a web page is requesting full user data by some kind of hash.
-	passport.deserializeUser(function(id, done) {
+	passport.deserializeUser(function(request, id, done) {
 		db.get('Users', id)
 		.then(user => done(undefined, user))
 		.catch(error => done(undefined, false))
