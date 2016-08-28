@@ -4,7 +4,9 @@
 	"main": "index.js",
 	"description": "Allows users to login.",
 	"dependencies": {
-		"passport": "*"
+		"passport": "*",
+		"express-session": "*",
+		"aerospike-session-store": "*"
 	},
 	"keywords": [
 		"aero",
