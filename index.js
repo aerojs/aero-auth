@@ -8,6 +8,9 @@ module.exports = app => {
 	if(!app.api.session || !app.api.session.secret)
 		console.warn('Warning: app.api.session.secret is not defined, you should add session.secret to security/api-keys.json (falling back to temporary sessions)')
 
+	if(!app.auth)
+		app.auth = {}
+
 	let db = app.db
 
 	// Serialize
